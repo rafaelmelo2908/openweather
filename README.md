@@ -21,7 +21,7 @@ https://user-images.githubusercontent.com/123074145/228249897-97966c0e-2bc2-4d5f
 <ul>
 	<li>Users can search for weather information by entering the name of a location in the search box.</li>
 	<li>The app displays the current weather conditions for the location, including temperature, humidity, wind speed, and a brief description of the weather.</li>
-	<li>The app also displays the country flag for the city selecioned and change the background according the city.</li>
+	<li>The app also displays the country flag for the city selected and changes the background according to the city.</li>
 </ul>
 
 
