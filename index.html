@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="cloudy icon" type="image/x-icon" href="img/cloudy.png" />
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Open Weather</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div id="banner">
+        <h2>Open Weather</h2>
+    </div>
+
+    
+    <div id="wraper">
+        <div class="container">
+            
+            <div class="form">
+                <h3>Check the weather in a city:</h3>
+                <div class="form-input-container">
+                    <input type="text" placeholder="Type the name of the city" id="city-input">
+                    <button id="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div id="weather-data" class="hide">
+                <h2>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span id="city"></span>
+                    <img src="" alt="Country flag
+                    "  id="country">
+                </h2>
+                <p id="temperature"><span></span>&deg;C</p>
+
+                <div id="description-container">
+                    <p id="description"></p>
+                    <img src="" alt="Weather conditions
+                    " id="weather-icon">
+                </div>
+
+                <div id="details-container">
+                    <p id="humidity">
+                        <i class="fa-solid fa-droplet"></i>
+                        <span></span>
+                    </p>
+                    <p id="wind">
+                        <i class="fa-solid fa-wind"></i>
+                        <span></span>
+                    </p>
+                </div>
+
+            </div>
+
+            <div id="hide2">
+                <p>This system was created to check the weather in any city in the world! It's important to note that weather conditions can change quickly, so it's always a good idea to check the forecast regularly, especially if you are planning outdoor activities or travel.</p>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <footer id="footer">
+        <img class="logoMarca" src="img/RM.png" alt="Logomarca">
+      Rafael Melo -  All rights reserved. 
+    </footer>
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

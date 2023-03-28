@@ -1,0 +1,191 @@
+/*Genaral*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    --color--primary:#fdfdfd;
+}
+
+body {
+    background: url(/img/bg.jpg) no-repeat center center fixed;
+    background-position: center;
+    background-size: cover;
+   
+ 
+    height: 100%;
+   
+}
+
+
+#banner{
+    margin: 50px auto;
+}
+
+#banner h2{
+    color: var(--color--primary);
+    font-size: 60px;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, .7) 0px 3px 8px;
+}
+
+    
+.hide {
+    display: none;
+}
+
+#hide2 {
+    display: block;
+    margin: 20px 0;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+#hide2 p {
+    margin-top: 40px;
+    text-align: justify;
+    color:gray;
+}
+
+
+#wraper {
+    margin: 0 auto;
+}
+
+#wraper .container {
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: rgba(0, 0, 0, .24) 0px 3px 8px;
+    color: var(--color--primary);
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 350px;
+    min-height: 400px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+@media (max-width: 400px) {
+    #wraper .container {
+        border-radius: 0;
+    }
+}
+
+ 
+
+
+/*Form*/
+
+.form h3 {
+    margin-bottom: 1rem;
+    font-size: 25px;
+}
+
+.form .form-input-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form input {
+    padding: .8rem;
+    border: none;
+    flex: 1;
+    border-radius: 10px;
+    background-color: rgba(124, 124, 124, 0.2);
+    color: var(--color--primary);
+    font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .form input {
+      font-size: 15px;
+    }
+  }
+
+
+
+.form button {
+    padding: .8rem;
+    min-width: 50px;
+    margin-left: 8px;
+    background-color: rgba(124, 124, 124, 0.2);
+    color: var(--color--primary);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/*Weather*/
+
+#weather-data {
+    border-top: 1px solid var(--color--primary);
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+#weather-data h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .6rem;
+}
+
+#weather-data h2 i {
+    font-size: 1rem;
+}
+
+#weather-data span {
+    margin: .6rem;
+    font-size: 1.5rem;
+}
+
+#weather-data h2 #country {
+    height: 40px;
+    
+}
+
+#description {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+
+#description-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .6rem 0;
+}
+
+#details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#details-container #humidity {
+    border-right: 1px solid var(--color--primary);
+    margin: .6rem;
+    padding: .6rem;
+}
+
+/*footer*/
+
+#footer {
+    margin: 50px auto;
+    color: var(--color--primary);
+    font-size: 20px;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, .7) 0px 3px 8px;
+}
+
+#footer .logoMarca {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+  }
+  
+
